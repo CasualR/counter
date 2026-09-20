@@ -1,0 +1,8 @@
+Link for design reference: https://dribbble.com/shots/27201379-Nutrition-App-UI-DailyMe
+I am making the app for nutrition goals and search for the cheapest way to eat necessary nutritions, and i want to integrate the money spending counter in the app
+And Im gonna integrate the counting for meals,
+
+1. Need to create the page with products from stores
+	1) Finish product page
+	2) Show images and description of product
+	3) Open the subpage of product in products page
