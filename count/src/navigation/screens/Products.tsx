@@ -1,9 +1,9 @@
 import { Text } from '@react-navigation/elements';
-import { StyleSheet, View } from 'react-native';
+import { StyleSheet, View, Image } from 'react-native';
 import productsList from "../../assets/productsList.js"
 
 export function Products() {
-  console.log(productsList[0])
+  console.log(productsList[0].image)
 
   return (
     <View style={styles.container}>
@@ -11,6 +11,7 @@ export function Products() {
       {productsList.map((product) => {
         return (
           <View>
+            <Image source={{ uri: product.image }} style={{ width: 200, height: 200 }}/>
             <Text style={styles.item}>{product.name}</Text>
           </View>
         );
