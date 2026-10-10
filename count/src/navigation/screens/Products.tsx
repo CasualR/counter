@@ -1,35 +1,44 @@
 import { Text } from '@react-navigation/elements';
-import { StyleSheet, View, Image } from 'react-native';
-import productsList from "../../assets/productsList.js"
+import { StyleSheet, View, Image, ScrollView } from 'react-native';
+import { Link } from 'expo-router';
+import { productsList } from '../../assets/productsList';
+import { ImageSourcePropType } from 'react-native';
 
 export function Products() {
-  console.log(productsList[0].image)
+  console.log(productsList[1].image)
 
   return (
-    <View style={styles.container}>
+    <ScrollView contentContainerStyle={styles.container} showsVerticalScrollIndicator={false}>
       <Text>Products Screen</Text>
-      {productsList.map((product) => {
-        return (
-          <View>
-            <Image source={{ uri: product.image }} style={{ width: 200, height: 200 }}/>
-            <Text style={styles.item}>{product.name}</Text>
-          </View>
-        );
-      })}
-    </View>
+      <View style={styles.row}>
+        {productsList.map((product) => {
+          return (
+            <View key={product.id}>
+              <Image source={ product.image as ImageSourcePropType } style={{ width: 250, height: 200 }}/>
+              <Text style={styles.item}>{product.name}</Text>
+              {/* <Link href={`products/${product.id}`}></Link> */}
+            </View>
+          );
+        })}
+      </View>
+    </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
+    // justifyContent: 'center',
     alignItems: 'center',
     gap: 10,
+    paddingTop: 30,
   },
   row: {
     flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'center',
     gap: 10,
+    marginTop: 20
   },
   item: {
 

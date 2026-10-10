@@ -6,3 +6,9 @@ And Im gonna integrate the counting for meals,
 	1) Finish product page
 	2) Show images and description of product
 	3) Open the subpage of product in products page
+  4) Nutrition score of product. (for example A is the best, D is the worst)
+  5) Show the price per 1 gramm of protein or 10 gramms etc.
+  6) Categories in search, like for example you search for carbos then show the price per 10 gramms of carbo
+
+
+https://www.youtube.com/watch?v=Z20nUdAUGmM
