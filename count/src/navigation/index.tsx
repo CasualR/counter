@@ -17,6 +17,7 @@ import { Profile } from './screens/Profile';
 import { Settings } from './screens/Settings';
 import { Products } from './screens/Products';
 import { Updates } from './screens/Updates';
+import { ProductDetails } from './screens/products/[id]';
 
 const HomeTabs = createBottomTabNavigator({
   screens: {
@@ -75,6 +76,10 @@ const RootStack = createNativeStackNavigator({
         },
       },
     }),
+    ProductDetails: createNativeStackScreen({
+      screen: ProductDetails,
+      linking: { path: 'products/:id' },
+    }),
     Settings: createNativeStackScreen({
       screen: Settings,
       options: ({ navigation }) => ({
@@ -114,5 +119,5 @@ export const Navigation = createStaticNavigation(RootStack);
 type RootStackType = typeof RootStack;
 
 declare module '@react-navigation/native' {
-  interface RootNavigator extends RootStackType {}
+  interface RootNavigator extends RootStackType { }
 }

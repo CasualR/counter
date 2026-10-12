@@ -12,3 +12,6 @@ And Im gonna integrate the counting for meals,
 
 
 https://www.youtube.com/watch?v=Z20nUdAUGmM
+
+2. Design of application
+We will get rid of everything unnecessary, we will just have everything we need.
