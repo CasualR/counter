@@ -11,6 +11,7 @@ export function Home() {
       </Button>
       <Button screen="Settings">Go to Settings</Button>
       <Button screen="Products"> Go to Products </Button>
+      <Button screen="Macros"> Go to Macros </Button>
     </View>
   );
 }

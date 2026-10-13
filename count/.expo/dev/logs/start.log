@@ -682,3 +682,26 @@
 {"_e":"metro:client_log","_t":1791767272420,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
 {"_e":"metro:client_log","_t":1791767272420,"level":"log","data":["{\"height\": 752, \"toString\": [Function toString], \"uri\": \"/assets/?unstable_path=.%2Fsrc%2Fassets%2Fimages/hvit_ris.jpg\", \"width\": 466}"]}
 {"_e":"metro:client_log","_t":1791767358599,"level":"log","data":["{\"height\": 752, \"toString\": [Function toString], \"uri\": \"/assets/?unstable_path=.%2Fsrc%2Fassets%2Fimages/hvit_ris.jpg\", \"width\": 466}"]}
+{"_e":"root:init","_t":1791923303961,"format":"v0-jsonl","version":"57.0.28"}
+{"_e":"env:mode","_t":1791923303971,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1791923303981,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1791923308523,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../..\\..\\app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1791923312364,"serverRoot":"../..\\..","projectRoot":"../..\\..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"expo:dev-tools-plugin:load","_t":1791923314059,"plugins":[]}
+{"_e":"metro:instantiate","_t":1791923319912,"atlas":false,"workers":10,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1791923369747,"id":"2","platform":"web","environment":null,"entry":"index.tsx"}
+{"_e":"metro:bundling:progress","_t":1791923369748,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1791923369751,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1791923369851,"id":"2","progress":0.41059477801866345,"total":309,"current":198}
+{"_e":"metro:bundling:progress","_t":1791923369951,"id":"2","progress":0.7256515775034293,"total":486,"current":414}
+{"_e":"metro:bundling:progress","_t":1791923370051,"id":"2","progress":0.999,"total":610,"current":610}
+{"_e":"metro:bundling:done","_t":1791923370096,"id":"2","total":610,"ms":348.8168}
+{"_e":"metro:client_log","_t":1791923370235,"level":"info","data":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"]}
+{"_e":"metro:client_log","_t":1791923370236,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
+{"_e":"metro:client_log","_t":1791923370236,"level":"log","data":["{\"height\": 752, \"toString\": [Function toString], \"uri\": \"/assets/?unstable_path=.%2Fsrc%2Fassets%2Fimages/hvit_ris.jpg\", \"width\": 466}"]}
+{"_e":"metro:bundling:started","_t":1791923418240,"id":"d","platform":"web","environment":null,"entry":"index.tsx"}
+{"_e":"metro:bundling:progress","_t":1791923418240,"id":"d","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1791923418255,"id":"d","total":1,"ms":15.2779}
+{"_e":"metro:client_log","_t":1791923418324,"level":"info","data":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"]}
+{"_e":"metro:client_log","_t":1791923418324,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
+{"_e":"metro:client_log","_t":1791932351954,"level":"log","data":["{\"height\": 752, \"toString\": [Function toString], \"uri\": \"/assets/?unstable_path=.%2Fsrc%2Fassets%2Fimages/hvit_ris.jpg\", \"width\": 466}"]}

@@ -18,6 +18,7 @@ import { Settings } from './screens/Settings';
 import { Products } from './screens/Products';
 import { Updates } from './screens/Updates';
 import { ProductDetails } from './screens/products/[id]';
+import { Macros } from './screens/Macros';
 
 const HomeTabs = createBottomTabNavigator({
   screens: {
@@ -93,6 +94,17 @@ const RootStack = createNativeStackNavigator({
     }),
     Products: createNativeStackScreen({
       screen: Products,
+      options: ({ navigation }) => ({
+        presentation: 'modal',
+        headerRight: () => (
+          <HeaderButton onPress={navigation.goBack}>
+            <Text>Close</Text>
+          </HeaderButton>
+        ),
+      }),
+    }),
+    Macros: createNativeStackScreen({
+      screen: Macros,
       options: ({ navigation }) => ({
         presentation: 'modal',
         headerRight: () => (
